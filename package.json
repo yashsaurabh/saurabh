@@ -1,0 +1,12 @@
+{
+  "name": "saurabh",
+  "version": "1.0.0",
+  "description": "project for storing postman tests",
+  "scripts": {
+    "api-test-production": "newman run /postman_newman_jenkins/tests/http---jsonplaceholder.typicode.com-.postman_collection"
+  },
+  "author": "saurabh aglave",
+  "dependencies": {
+    "newman": "^5.2.0"
+  }
+}
