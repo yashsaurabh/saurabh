@@ -16,9 +16,6 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});\r",
 							"pm.test(\"Response time is less than 1000ms\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
 							"});"
@@ -57,11 +54,8 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"pm.test(\"Response time is less than 200ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-							"});\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"string_you_want_to_search\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"id labore ex et quam laborum\");\r",
 							"});"
 						],
 						"type": "text/javascript"

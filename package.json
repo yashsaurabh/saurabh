@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "project for storing postman tests",
   "scripts": {
-    "api-test-production": "newman run /postman_newman_jenkins/tests/http---jsonplaceholder.typicode.com-.postman_collection"
+    "api-test-production": "newman run /postman_newman_jenkins/tests/http---jsonplaceholder.typicode.com-.postman_collection --reporters cli,junit --reporter-junit-export newman.xml"
   },
   "author": "saurabh aglave",
   "dependencies": {
